@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+#carousel {
+	position: relative;
+	height: 300px;
+	width: 700px;
+	overflow: hidden;
+	margin: 200px auto;
+	border: 1px solid blue;
+}
+#carousel ul {
+	width: 3500px; 
+	position: relative;
+	left: -730px;
+}
+#carousel li {
+	float: left;
+}
+#carousel i {
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 50px;
+	font-size: 60px;
+	color: blue;
+	padding: 110px 10px;
+	transition: .5s;
+}
+#carousel i:hover {
+	cursor: pointer;
+ 
+}
+#chevron-right {
+	margin-left: 660px;
+} 
